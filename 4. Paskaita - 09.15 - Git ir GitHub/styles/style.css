@@ -1,0 +1,40 @@
+.kvadratas {
+    display: inline-block;
+    background-color: aqua;
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+}
+.statinis {
+    position: static;
+}
+.top_20 {
+    top: 20px;
+}
+.bot_20 {
+    bottom: 20px;
+}
+.top_50 {
+    top: 50px;
+}
+.reliatyvus {
+    position: relative;
+}
+.left_30 {
+    left: 30px;
+}
+.zindex {
+    z-index: 1;
+}
+.absolute {
+    position: absolute;
+}
+.fiksuotas {
+    position: fixed;
+}
+.lipnus {
+    position: sticky;
+}

@@ -1,0 +1,40 @@
+body {
+    background-color: lightgrey;
+}
+.nerodyti {
+    display: none;
+}
+.strukturosIMG {
+    width: auto;
+    height: 300px;
+}
+.blokinis {
+    display:block;
+}
+.linijinis {
+    display: inline;
+}
+.linijinisBlokinis {
+    display: inline-block;
+}
+.kvadratas {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    border: 3px dashed red;
+}
+.margin1 {
+    margin: 50px;
+}
+.border1 {
+    border: 5px dotted red;
+}
+.padding1 {
+    padding: 30px;
+}
+.hoveris:hover {
+    font-size: 30px;
+}
+.hoveris {
+    text-align: center;
+}

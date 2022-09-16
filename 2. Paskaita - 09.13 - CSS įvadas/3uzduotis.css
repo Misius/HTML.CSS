@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    color: green;
+
+}
+h3, h4, td {
+    text-align: center;
+}
+.raudonasTekstas {
+    color: red;
+}
+.center {
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+.nubraukimas {
+    text-decoration: line-through red;
+}

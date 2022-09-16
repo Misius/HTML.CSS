@@ -1,0 +1,14 @@
+.purple {
+    color: purple;
+}
+ul {
+    list-style-type: "-";
+    padding-inline-start: 3px;
+}
+ol {
+    padding-inline-start: 10px;
+}
+.inlineBlock {
+    display: inline-block;
+}
+

@@ -1,0 +1,16 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+h1 {
+    text-align: center;
+}
+.pirmas {
+    background-color: brown;
+    color: white;
+}
+.antras {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.paverstasTekstas {
+    font-style: italic;
+}

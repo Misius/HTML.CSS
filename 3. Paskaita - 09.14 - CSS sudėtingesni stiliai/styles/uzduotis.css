@@ -1,0 +1,65 @@
+.logoImg {
+    width: auto;
+    height: 60px;
+    margin: 5px 10px;
+}
+.inlineBlockDisplay {
+    display: inline-block;
+}
+header {
+    background-color: grey;
+    height: 70px;
+}
+.menuDiv {
+    float: right;
+    width: 30%;
+}
+body {
+    margin: 0;
+}
+.menuList {
+    padding: 0;
+}
+.menuLisItem {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.noDecor {
+    color: black;
+    text-decoration: none;
+}
+.noDecor:visited {
+    color: black;
+}
+.noDecor:hover {
+    color: green;
+}
+.center {
+    text-align: center;
+}
+body {
+    background-color: lightgrey;
+
+}
+.imgResize {
+    height: 200px;
+}
+footer {
+    background-color: rgb(77, 76, 76);
+    height: 100px;
+    padding: 3em;
+}
+.grey {
+    color: grey;
+}
+.logo {
+    width: auto;
+    height: 50px;
+}
+.border {
+    border-collapse: collapse;
+}
+html {
+    scroll-behavior: smooth;
+}

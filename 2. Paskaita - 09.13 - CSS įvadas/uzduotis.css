@@ -1,0 +1,16 @@
+.italic {
+    font-style: italic;
+}
+.melyna {
+    color: blue;
+}
+.zalia {
+    color: lightgreen;
+}
+p {
+    font-weight: bold;
+}
+.pabraukimas {
+    color: lightgreen;
+    text-decoration: underline;
+}
