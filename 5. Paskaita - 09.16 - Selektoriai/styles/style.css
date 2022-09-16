@@ -1,0 +1,12 @@
+body {
+    font-family: initial;
+}
+.redIcon {
+    color: red;
+}
+.italicIcon {
+    font-style: italic;
+}
+.bigIcon {
+    font-size: 50px;
+}
