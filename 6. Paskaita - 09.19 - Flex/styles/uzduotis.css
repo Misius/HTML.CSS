@@ -1,0 +1,23 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+header {
+    height: 50px;background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+}
+.mainMenu {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+.mainMenu > ul {
+    display: flex;
+    pad: 0;
+    margin: 0;
+    width: 100%;
+}
+.mainMenu li {
+    list-style-type: none;
+}
+.mainMenu a {
+    list-style-type: none;
+}
