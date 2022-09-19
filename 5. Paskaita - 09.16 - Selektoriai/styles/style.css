@@ -10,3 +10,47 @@ body {
 .bigIcon {
     font-size: 50px;
 }
+/* 
+2n - even - lyginiai
+2n+1 - odd - nelyginiai
+
+Stulpelių žymėjimas
+Position
+z-index
+width+height
+background-color
+*/
+
+.nth_lentele th, .nth_lentele td {
+    border: 3px solid black;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.nth_lentele tbody > tr:nth-child(odd) {
+    background-color: red;
+}
+ .nth_lentele tbody > tr:hover {
+    background-color: bisque;
+} 
+.nth_lentele td:after {
+    content: " :) ";
+}
+td:hover:after, td:hover:before { 
+    background-color: grey;
+    content: '';  
+    height: 10000px;    
+    left: 0;
+    position: absolute;  
+    top: -5000px;
+    width: 100%;
+    z-index: -1;        
+}
+td, th {
+    position: relative;
+}
+.nth_lentele > table {
+    border: 3px solid black;
+    border-collapse: collapse;
+    overflow:hidden;
+}
