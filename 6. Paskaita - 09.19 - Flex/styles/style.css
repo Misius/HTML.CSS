@@ -78,11 +78,18 @@
     border: 1px solid black;
 }
 .containerTask1 {
-    height: 33%;
+    gap: 1px;
+    display: flex;
+    flex-direction: column;
 }
 .uzd1 {
     background-image:url(https://play-lh.googleusercontent.com/9UDY3O4wSwlBm-kHHfjKf85Yk5GCt0nckL5ZdMR-nYotAfNjODvR4sZ-scPXG3ABVF65);
     background-size: cover;
+    background-repeat: no-repeat;
+}
+.flex {
+    display: flex;
+    gap: 1px;
 }
 .w33 {
     width: 33%;
@@ -96,7 +103,22 @@
 .h66 {
     height: 66%;
 }
-.flex {
+.h50 {
+    height: 50%;
+}
+.containerTask2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+.containerTask2Level1 {
     display: flex;
     gap: 1px;
+
+}
+.containerTask2Leve2 {
+    display: flex;
+    gap: 1px;
+    flex-direction: column;
+
 }
