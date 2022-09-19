@@ -1,18 +1,27 @@
 @import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+html {
+    height: 100%;
+}
 header {
-    height: 50px;background-color: antiquewhite;
+    height: 50px;
+    background-color: antiquewhite;
     display: flex;
     justify-content: space-between;
+    padding: 30px 10%;
+    align-items: center;
 }
 .mainMenu {
     display: flex;
     align-items: center;
     width: 30%;
 }
+ul {
+    justify-content: space-between;
+}
 .mainMenu > ul {
     display: flex;
-    pad: 0;
-    margin: 0;
+    pad: 0px;
+    margin: px;
     width: 100%;
 }
 .mainMenu li {
@@ -20,4 +29,52 @@ header {
 }
 .mainMenu a {
     list-style-type: none;
+}
+.logo {
+    cursor: pointer;
+    height: 100px;
+}
+.navLinks {
+    list-style: none;
+}
+.navLinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navLinks li a {
+    transition: all 0.3s ease 0s;
+}
+.navLinks li a:hover {
+    color: #0088a9;
+}
+button {
+    pad: 9px 25px ;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+h1 {
+    text-align: center;
+}
+aside {
+    width: 20%;
+    max-width: 150px;
+    min-width: 100px;
+    float:left;
+}
+footer {
+    background-color: lightgray;
+}
+.futeris {
+    min-height: 10vh;
+    margin-top: auto;
+    padding: 3rem;
+}
+body {
+    
 }
