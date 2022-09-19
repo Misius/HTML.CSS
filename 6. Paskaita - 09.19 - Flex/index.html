@@ -4,9 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Flex</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    
+    <section> <!-- Flex teorija -->
+        <h1>Display: flex</h1>
+        <p>Suteikus konteineriui flex nustatymą, jo viduje elementai išsidėsto vienas šalia kito. <br>
+            Elementai gali susispausti, kad tilptų į vieną eilutę šitaip ignoruodami savo pačių nustatytus dydžius. <br>
+            Suteikus flex konteineriui flex-direction - galime valdyti jo viduje esančių elementų išsidėstymo tvarką. <br>
+            Suteikus flex konteineriui flex-wrap - galime nurodyti ar ir kaip elgtis esant elementų pertekliai vienoje eilutėje arba sulpelyje. <br>
+            Suteikus flex konteineriui justify-content - galime valdyti kaip elementai išsidėsto (tarpai tarp elementų)eilutėje (jeigų flex-direction yra row). <br>
+            Suteikus flex konteineriui align-content - galime valdyti kaip elementai išsidėsto (tarpai tarp elementų) stulpelyje (jeigų flex-direction yra column). <br>
+            Suteikus flex konteineriui gap - galime nurodyti kokie tarpai turi būti tarp jo vaikinių elementų. <br></p>
+        <div class="flexContainer">
+            <div class="kvadratas">1</div>
+            <div class="kvadratas">2</div>
+            <div class="kvadratas">3</div>
+            <div class="kvadratas">4</div>
+            <div class="kvadratas">5</div>
+            <div class="kvadratas flexAntras alignSelf">6</div>
+            <div class="kvadratas">7</div>
+            <div class="kvadratas">8</div>
+            <div class="kvadratas flexPenktas">9</div>
+            <div class="kvadratas">10</div>
+            <div class="kvadratas">11</div>
+            <div class="kvadratas">12</div>
+        </div>
+    </section>
+    <section> <!-- Uždaviniai -->
+        <div class="pirmasPratimas"> <!-- Simple flex in flex -->
+            <div class="pirmasKvadratas kvadratai">1</div>
+            <div class="flexInFlex">
+                <div class="antrasKvadratas kvadratai">2</div>
+                <div class="flexInFlex2">
+                    <div class="treciasKvadratas kvadratai">3</div>
+                    <div class="ketvirtasKvadratas kvadratai">4</div>
+                </div>
+            </div>
+        </div>
+        <div class="bigTaskContainer containerTask1"> <!-- Big Flex Task-->
+            <div class="flex">
+                <div class="w33 uzd1">1</div>
+                <div class="w66 uzd1">2</div>
+            </div>
+            <div class="flex">
+                <div class="w66 uzd1">3</div>
+                <div class="w33 uzd1">4</div>
+            </div>
+            <div class="flex">
+                <div class="uzd1">5</div>
+                <div class="uzd1">6</div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

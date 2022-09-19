@@ -1,0 +1,102 @@
+.kvadratas {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 5px solid black;
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+}
+.flexContainer {
+    display: flex;
+    height: 500px;
+    overflow: hidden;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px 20px;
+}
+.flexPirmas {
+    order: 1;
+}
+.flexAntras {
+    order: 2;
+}
+.flexTrecias {
+    order: 3;
+}
+.flexKetvirtas {
+    order: 4;
+}
+.flexPenktas {
+    order: 5;
+}
+.alignSelf {
+    align-self: flex-end;
+}
+.kvadratai {
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 30px;
+    border: 3px solid black;
+}
+.pirmasPratimas {
+    display: flex;
+    gap: 30px;
+}
+.pirmasKvadratas {
+    width: 330px;
+    height: 230px;
+}
+.antrasKvadratas {
+    width: 330px;
+    height: 100px;
+}
+.treciasKvadratas {
+    width: 150px;
+    height: 100px;
+}
+.ketvirtasKvadratas {
+    width: 140px;
+    height: 100px;
+}
+.flexInFlex {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.flexInFlex2 {
+    display: flex;
+    gap: 30px;
+}
+.bigTaskContainer {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+.containerTask1 {
+    height: 33%;
+}
+.uzd1 {
+    background-image:url(https://play-lh.googleusercontent.com/9UDY3O4wSwlBm-kHHfjKf85Yk5GCt0nckL5ZdMR-nYotAfNjODvR4sZ-scPXG3ABVF65);
+    background-size: cover;
+}
+.w33 {
+    width: 33%;
+} 
+.w66 {
+    width: 66%;
+}
+.h33 {
+    height: 33%;
+} 
+.h66 {
+    height: 66%;
+}
+.flex {
+    display: flex;
+    gap: 1px;
+}
