@@ -1,0 +1,106 @@
+header {
+    z-index: 10;
+}
+img {
+    max-width: 100%;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.flex2 {
+    display: flex;
+
+}
+.logo {
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fonas {
+    background-color: gray;
+    position: fixed;
+    width: 100%;
+    box-shadow: 5px 5px 10px rgb(74, 74, 74);
+}
+.mainMenu {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+.pirmasDiv {
+    text-align: center;
+}
+.mainMenu a {
+    padding: 10px 20px;
+}
+a:hover {
+    background-color: rgb(149, 146, 146);
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+.bold {
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.hero {
+    height: 100vh;
+    background:url(https://www.w3schools.com/w3images/architect.jpg) no-repeat;
+    background-size: cover;
+}
+.flexCenter {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.heroDiv{
+    display: flex;
+}
+.heroFonas {
+    
+}
+.heroTitleFonas {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+}
+.heroTitle {
+    font-size: 40px;
+}
+.heroTitle span {
+    font-weight: normal;
+    color: white;
+}
+/*================ nuotraukos ======================= */
+.line {
+    height: 1px;
+    background-color: black
+}
+.absolute {
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
+.relative {
+    position: absolute;
+}
+.nuotraukos {
+    padding: 40px 30px;
+}
+.nuotraukosFlex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    flex-basis: 30%;
+    flex-grow: 1;
+}
+.basis {
+    flex-basis: 30%;
+    flex-grow: 1;
+}
