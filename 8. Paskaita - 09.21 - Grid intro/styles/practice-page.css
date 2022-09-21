@@ -2,6 +2,9 @@
 * {
     box-sizing: border-box;
 }
+hr {
+    padding: 20px;
+}
 /* Our team */
 .ourTeam {
     padding: 3% 20px;
@@ -31,4 +34,47 @@
 .teamGrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+/*  Our work */
+.workGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgb(70, 69, 69);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.workItem1 {
+    background-color: white;
+    margin: 40px 5px;
+}
+.workItem1 h3,p {
+    padding-left: 25px;
+ 
+}
+.workItem1 p {
+    margin-bottom: 0px;
+}
+.workCustomer {
+    font-weight: normal;
+}
+.workTrade {
+    font-size: 20px;
+}
+.workUl {
+    list-style: none;
+    padding: 0px 25px 10px 25px;
+    margin-top: 0px;
+}
+.workUl li {
+    padding-top: 25px;
+    font-size: 20px;
+}
+.txtWhite {
+    color: white;
+    font-weight: normal;
+}
+.workGrid img {
+    width: 100%;
+}
+.txtWhite h2 {
+    padding-left: 25px;
 }
