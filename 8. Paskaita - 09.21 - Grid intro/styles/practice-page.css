@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 hr {
-    padding: 20px;
+    margin: 20px;
 }
 /* Our team */
 .ourTeam {
@@ -43,7 +43,7 @@ hr {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .workItem1 {
-    background-color: white;
+    background-color: rgb(141, 56, 56);
     margin: 40px 5px;
 }
 .workItem1 h3,p {
@@ -77,4 +77,79 @@ hr {
 }
 .txtWhite h2 {
     padding-left: 25px;
+}
+/*     Pricing       */
+.pricingGrid {
+    display: grid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.pricingItem {
+    margin: 40px 5px;
+    border: 1px grey solid;
+}
+.pricingItem:hover {
+    box-shadow: 0px 0px 19px 7px rgba(0,0,0,0.5);
+
+    
+}
+.pricingLi {
+    text-align: center;
+    list-style: none;
+    border-bottom: 1px solid grey;
+}
+.pricingLib {
+    text-align: center;
+    list-style: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-bottom: 1px solid grey;
+}
+button {
+    border: none;
+    background-color: cyan;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: grey;
+    color: black;
+}
+.pricingLig {
+    text-align: center;
+    list-style: none;
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    border-bottom: 1px solid grey;
+}
+.pricingLigr {
+    text-align: center;
+    list-style: "";
+    background-color: rgb(201, 200, 200);
+    color: white;
+    font-weight: bold;
+}
+.pricingCenter li {
+    padding: 20px;
+}
+.pricingCenter {
+    text-align: center;
+}
+.pricingGrid ul {
+    margin: 0;
+    padding: 0;
+}
+.cash {
+    font-size: 25px;
+}
+.cash::before {
+    font-weight: bold;
+    content: "$ "
+}
+.gray {
+    color: gray;
+    font-size: 10px;
 }
