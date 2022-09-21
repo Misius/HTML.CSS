@@ -1,0 +1,19 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+}
+.gridItem {
+    min-height: 150px;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.item1 {
+    grid-area: 1 / span 2 / span 2;
+}
+.item2 {
+    grid-column: 3 / span 2;
+}

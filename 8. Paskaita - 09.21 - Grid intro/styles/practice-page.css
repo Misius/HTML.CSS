@@ -1,0 +1,34 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+* {
+    box-sizing: border-box;
+}
+/* Our team */
+.ourTeam {
+    padding: 3% 20px;
+    text-align: center;
+}
+.teamItem {
+    text-align: center;
+}
+.teamItem img {
+    border-radius: 50% ;
+    transition: all 0.2s;
+}
+.teamItem img:hover {
+    opacity: 0.75;
+    
+}
+.teamName {
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+.teamPosition {
+    font-weight: normal;
+    font-size: 18px;
+}
+.teamGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
