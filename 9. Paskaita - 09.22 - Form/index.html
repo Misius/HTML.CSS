@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Forms</title>
+</head>
+<body>
+    <section>
+        <div class="form">
+            <h2>Send us a message</h2>
+            <form action="">
+                <div>
+                    <label for="name"></label>
+                    <input type="text" id="name" placeholder="Full Name">
+                </div>
+                <div>
+                    <label for="email"></label>
+                    <input type="text" id="email" placeholder="E-mail">
+                </div>
+                <div>
+                    <fieldset>
+                        <legend>Fav color</legend>
+                        <input type="radio" id="red" name="favColor">
+                        <label for="red">Red</label>
+                        <input type="radio" id="green" name="favColor">
+                        <label for="green">Green</label>
+                        <input type="radio" id="blue" name="favColor">
+                        <label for="blue">Blue</label>
+                    </fieldset>
+                </div>
+                <div>
+                    <label for="phone"></label>
+                    <input type="number" id="phone" placeholder="Phone">
+                </div>
+                <div>
+                    <label for="phone"></label>
+                    <textarea class="te" name="message" id="message" cols="22" rows="3" placeholder="Your message"></textarea>
+                </div>
+                <div>
+                    <label for="town">Tavo miestas <br></label>
+                    <select name="" id="town" placeholder="Miestas">
+                        <option value="" selected disabled>Pasirinkite miestą</option>
+                        <option value="">Vilnius</option>
+                        <option value="">Kaunas</option>
+                        <option value="">Klaipėda</option>
+                        <option value="">Panevėžys</option>
+                        
+                    </select>
+                </div>
+                <div><button class="fa fa-paper-plane" type="submit">   Send</button></div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
