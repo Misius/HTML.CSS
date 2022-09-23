@@ -1,0 +1,60 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+@import 'reset.css';
+header {
+background-color: rgb(73, 73, 180);
+font-size: 100px;
+}
+main {
+    background-color: coral;
+    flex-basis: 70%;
+}
+aside {
+    background-color: aquamarine;
+    flex-grow: 1;
+}
+footer {
+    background-color: tomato;
+}
+.element {
+    min-height: 150px;
+}
+.flex {
+    display: flex;
+}
+/* Į visus tiesioginius vaikus 
+.flex > * {
+    flex-grow: 1;
+}
+
+
+ Į visus tiesioginius vaikus */
+ /* MEDIA QUERIES ========================== */
+
+/* Tablet screen */
+ @media screen and (max-width: 768px) {
+    /* Čia parašytos taisyklės galioja nuo 768 ir daugiau px */
+    main {
+        background-color: brown;
+        flex-basis: 50%;
+    }
+    header {
+        font-size: 70px;
+    }
+ }
+
+
+
+
+ /* Mobile screen */
+@media screen and (max-width: 375px){
+    .flex {
+        flex-direction: column;
+        gap: 0;
+    }
+    main {
+        background-color: rgb(245, 171, 144);
+    }
+    header {
+        font-size: 35px;
+    }
+}
