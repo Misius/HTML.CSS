@@ -1,0 +1,12 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+@import 'reset.css';
+
+.main {
+    width: 70%;
+}
+.aside {
+    width: 30%;
+    max-height: 300px;
+    border: 1px solid black;
+    background-color: bisque;
+}
