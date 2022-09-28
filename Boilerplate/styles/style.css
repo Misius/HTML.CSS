@@ -1,2 +1,168 @@
-@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
 @import 'reset.css';
+/*       Variables       */
+:root {
+    --main-color: rgb(63, 63, 190);
+    --main-dark-color:#333;
+    --text-grey-color: #999;
+}
+p {
+    font-weight: 300;
+}
+/*      Global styles     */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+html {
+    font-size: 16px;
+}
+.container {
+    padding: 0 1rem;
+}
+.btn {
+    border: none;
+    border-radius: 2rem;
+    background-color: var(--main-color);
+    color: white;
+    padding: 00.5rem 1rem;
+    transition: 0.2s;
+}
+.btn:hover {
+    background-color: var(--main-dark-color);
+}
+.section-title {
+    color: var(--main-color);
+    text-align: center;
+    font-weight: 800;
+}
+.section-subtitle {
+    line-height: 1.5;
+    color: var(--main-dark-color);
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+section {
+    padding-top: 8%;
+    padding-bottom: 10%;
+}
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+/*        Header         */
+
+.main-header {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+.main-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.logo {
+    color: black;
+    font-size: 2rem;
+    padding: 0.7em 0;
+}
+.logo span {
+    color: var(--main-color);
+}
+.burger {
+    font-size: 22px;
+}
+/*         Hero section          */
+
+.hero {
+    background-color: gray;
+    color: white;
+    height: 100vh;
+    min-height: 600px;
+    /* Patalpinti viską į vidurį */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /*              bg img           */
+    background: url(/Images/banner.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+h1 {
+    font-weight: 800;
+}
+.hero__sub {
+    padding: 0 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+/*       Overlay magic          */
+
+.add-overlay {
+    position: relative;
+}
+.add-overlay > * {
+    z-index: 1;
+}
+.add-overlay:after {
+    content: "asda";
+    background-color: rgba(51, 51, 51, 0.39);
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+/*         Our team       */
+.team-container {
+    display: grid;
+}
+.team-card__image {
+    width: 100%;
+}
+.team-card__description {
+    padding-left: 0.8rem;
+    padding-top: 0.8rem;
+}
+/*      Footer              */
+
+.footer {
+    padding: 12%;
+    background-color:var(--main-dark-color);
+    color: #fff;
+}
+.footer__title {
+    font-weight: normal;
+}
+.footer p, .footer-nav {
+    color: var(--text-grey-color);
+}
+.footer-grid {
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+.footer-bottom p {
+    padding: 2rem 0;
+    text-align: center;
+}
+.footer__hr {
+    height: 1px;
+    background-color: var(--text-grey-color);
+    
+}
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+.social-link {
+    padding: 1em;
+    font-size: 16px;
+}
