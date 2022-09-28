@@ -1,12 +1,32 @@
 @import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
 @import 'reset.css';
 
+body {
+    overflow: hidden;
+}
+.mainGrid {
+    display: grid;
+    grid-template-columns: auto 30%;
+    gap: 20px;
+}
 .main {
     width: 70%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 10px;
 }
 .aside {
-    width: 30%;
     max-height: 300px;
-    border: 1px solid black;
-    background-color: bisque;
+    background-color: #333;
+    overflow-y: scroll;
+    border-radius: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+.list ::marker {
+    color: coral;
+    font-size: 23px;
 }

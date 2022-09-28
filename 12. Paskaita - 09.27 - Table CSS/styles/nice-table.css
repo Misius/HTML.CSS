@@ -1,0 +1,118 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+@import 'reset.css';
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: linear-gradient(to right top, #762bcc, #e514ee);}
+.tableContainer {
+    display: grid;
+    place-items: center;
+
+}
+.table {
+    border-radius: 10px;
+    width: 960px;
+    border-collapse: collapse;
+    overflow: hidden;
+    
+}
+thead th {
+    color: white;
+    background-color: #333;
+    padding: 0.5em 0;
+    font-weight: normal;
+}
+.table td {
+    padding: 0.5em;
+}
+.table tr {
+    background-color: white;
+}
+tr:nth-child(even) {
+    background-color: gray;
+}
+tr:hover {
+    background-color: rgb(105, 104, 104);
+    color: white;
+}
+td:hover{
+    background-color: rgb(67, 67, 67);
+}
+td {
+    text-align: center;
+}
+/*                 Header                   */
+h2 {
+    margin-bottom:0;
+    margin-left: 20px;
+    
+}
+.logo {
+    padding: 0;
+    margin: 0;
+}
+.mainHeader {
+    background-color: beige;
+    margin-top: 0px;
+}
+.mainNav {
+    display: flex;
+    gap: 1rem;
+    justify-content: end;
+}
+.unlisted {
+    list-style: none;
+    padding-left: 0;
+}
+.inline li {
+    display: inline;
+    margin: 20px;
+}
+.hasSubMenu {
+    position: relative;
+}
+li {
+    background-color: white;
+    padding: 10px;
+}
+h2 {
+    margin-top: 0;
+    padding-top: 20px;
+}
+.subMenu {
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    left: 0;
+    top: 100%;
+    transform-origin: top;
+    transform: scaleY(0);
+    transition: transform 0.2s
+}
+.hasSubMenu:hover .subMenu {
+    transform: scaleY(1);
+}
+.subMenu li {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.hasSubMenu:hover {
+    background-color: grey;
+    color: white;
+}
+.hasSubMenu:hover .subMenu {
+    display: block;
+    transition: all 0.3s;
+}
+.hasSubMenu::after {
+    content: "\f078";
+    font-family: 'FontAwesome';
+    font-size: small;
+}
+
