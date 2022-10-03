@@ -1,0 +1,7 @@
+@media screen and (min-width: 600px) {
+    .late-news {
+        .news-posts {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
