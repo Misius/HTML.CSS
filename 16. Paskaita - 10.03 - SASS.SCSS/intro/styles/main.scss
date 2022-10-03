@@ -33,17 +33,25 @@ body {
     min-height: 400px;
     border: 1px solid v.$primary-color;
 
-    @include: "myFlex";
+    @include myFlex;
 
-    .box {
-        width: 100px;
-        height: 100px;
-        background-color: v.$secondary-color;
-        border: 1px solid v.$primary-color;
-    }
+    
 }
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: v.$primary-color;
+     border: 1px solid v.$primary-color;
+    &:hover {
+        background-color: lighten(tomato, 20%);
+     }
+ }
 .dezes {
     /*@extend .boxes;*/
     border-color: rgba(54, 8, 181, 0.309);
-    @include:myFlex($direction: column, $gap: 25px);
+    @include myFlex($direction: column, $gap: 25px);
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat();
 }
