@@ -1,0 +1,28 @@
+@use "vars" as v;
+
+.btn {
+    border: none;
+    padding: 0.8em 1.5em;
+    background-color: v.$primary-color;
+    color: v.$primary-light-color;
+    font-size: 1rem;
+    border-radius: 25px;
+    border: 1px solid v.$primary-color;
+}
+.btn--outline {
+    @extend .btn;
+    background: transparent;
+    color: v.$primary-color;
+}
+.header-pill {
+    color: v.$secondary-color;
+    background-color: v.$secondary-background-color;
+}
+.header {
+    background-color: v.$secondary-background-color;
+    color: v.$secondary-color;
+    font-size: 10px;
+    border-radius: 20px;
+    padding: 0.5em 2em;
+    display: inline-block;
+}
