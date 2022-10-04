@@ -9,3 +9,22 @@
 
 
 
+//        hero              
+
+.hero {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    &__text {
+        margin-bottom: 2rem;
+    }
+    .btn {
+        margin-bottom: 1.5rem;
+    }
+}
+
+//        Features
+
+.features {
+    text-align: center;
+    
+}

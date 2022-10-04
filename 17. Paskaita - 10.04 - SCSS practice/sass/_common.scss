@@ -1,5 +1,14 @@
 @use "vars" as v;
-
+body {
+    font-family: 'open sans';
+}
+p {
+    color: transparentize(black, 0.5);
+}
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 .btn {
     border: none;
     padding: 0.8em 1.5em;
@@ -8,6 +17,7 @@
     font-size: 1rem;
     border-radius: 25px;
     border: 1px solid v.$primary-color;
+    margin: 0rem 0.5rem;
 }
 .btn--outline {
     @extend .btn;
@@ -15,10 +25,7 @@
     color: v.$primary-color;
 }
 .header-pill {
-    color: v.$secondary-color;
-    background-color: v.$secondary-background-color;
-}
-.header {
+
     background-color: v.$secondary-background-color;
     color: v.$secondary-color;
     font-size: 10px;
